@@ -4,8 +4,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.root {
-    var()
+:root {
+    --primary-color:#FDE68A
 }
 
 /* container */
@@ -14,6 +14,29 @@ body{
 }
 
 .container-center{
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
+}
+
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    
+    color:royalblue;
+}
+.link-secondary {
+
+    color:royalblue;
+    border: 1px solid var(--primary-color)
 }
