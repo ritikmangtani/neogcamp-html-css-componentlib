@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -13,7 +14,9 @@ body{
 /* container */
 .container{
     padding : 0rem 1rem;
+    
 }
+
 
 .container-center{
     max-width: 600px;
@@ -57,7 +60,9 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: var(--royal-blue);
-    text-align: right
+    text-align: right;
+    border-top-right-radius: 1rem;
+
 }
 
 .navigation .link{
@@ -93,4 +98,33 @@ hr{
     color: var(--royal-blue);
     text-align: center;
     padding: 1rem;
+}
+
+.section{
+    border-top-right-radius: 1rem;
+}
+.section h1{
+    text-align: center;
+    padding: 1rem;
+}
+.ow{
+    background-color: wheat;
+
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--royal-blue);
+    border-top-right-radius: 1em;
+    
+}
+
+.footer .link{
+    color: var(--royal-blue);
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
