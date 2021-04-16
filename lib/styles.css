@@ -16,7 +16,7 @@ body{
 
 /* container */
 .container{
-    padding : rem 1rem;
+    padding : 0.5rem 1rem;
     
 }
 
@@ -36,7 +36,6 @@ hr{
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-   
 }
 
 .link-primary {
@@ -46,8 +45,8 @@ hr{
 }
 .link-secondary {
 
-    color:var(--primary-color);
-    border: 2px solid var(--primary-color);
+    color:var(--royal-blue);
+    border: 2px solid var(--primary-color)
 }
 
 .list-non-bullet{
@@ -66,12 +65,12 @@ hr{
     color: var(--royal-blue);
     text-align: right;
     border-top-right-radius: 1rem;
-    padding: 0.1rem;
 
 }
 
 .navigation .link{
     color: var(--royal-blue);
+    ;
 }
 .navigation .nav-brand{
     text-align: center;
@@ -105,12 +104,11 @@ hr{
 }
 
 .section{
-    border-top-right-radius: 2rem;
-    padding: 1.2rem;
+    border-top-right-radius: 1rem;
 }
 .section h1{
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 .ow{
     background-color: gainsboro;
@@ -132,10 +130,4 @@ hr{
 
 .footer ul{
     padding-inline-start: 0px;
-}
-
-.logo{
-    max-width: 2rem;
-    max-height: 2rem;
-    padding: 0.1rem 0.1rem;
 }
