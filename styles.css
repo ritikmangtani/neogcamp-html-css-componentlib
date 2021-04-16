@@ -2,32 +2,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
-body{
+body {
     font-family: 'Roboto Mono', monospace;
-    
+
 }
 
 :root {
-    --primary-color:#2e2e2e;
-    --royal-blue : seashell;
+    --primary-color: #2e2e2e;
+    --royal-blue: seashell;
 
 
 }
 
 /* container */
-.container{
-    padding : rem 1rem;
-    
+.container {
+    padding: rem 1rem;
+
 }
 
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
@@ -36,32 +36,32 @@ hr{
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-   
+
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    
-    color:var(--royal-blue);
+
+    color: var(--royal-blue);
 }
+
 .link-secondary {
 
-    color:var(--primary-color);
+    color: var(--primary-color);
     border: 2px solid var(--primary-color);
 }
 
-.list-non-bullet{
-    list-style: none
-    ;
+.list-non-bullet {
+    list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: var(--royal-blue);
     text-align: right;
@@ -70,71 +70,74 @@ hr{
 
 }
 
-.navigation .link{
+.navigation .link {
     color: var(--royal-blue);
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
     font-style: bolder;
 }
 
 /* header */
 
-.hero{
+.hero {
     padding: 2rem;
 
 }
 
-.hero .img-hero{
+.hero .img-hero {
     max-width: 350px;
     display: block;
     margin: auto;
 
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     color: var(--royal-blue);
     text-align: center;
     padding: 1rem;
 }
 
-.section{
+.section {
     border-top-right-radius: 2rem;
     padding: 1.2rem;
 }
-.section h1{
+
+.section h1 {
     text-align: center;
     padding: 0.5rem;
 }
-.ow{
+
+.ow {
     background-color: gainsboro;
 
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: var(--royal-blue);
     border-top-right-radius: 1em;
-    
+
 }
 
-.footer .link{
+.footer .link {
     color: var(--royal-blue);
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
-.logo{
+.logo {
     max-width: 2rem;
     max-height: 2rem;
     padding: 0.1rem 0.1rem;
