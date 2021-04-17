@@ -36,13 +36,14 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-
+    margin: 1rem 0rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
 
     color: var(--royal-blue);
+
 }
 
 .link-secondary {
