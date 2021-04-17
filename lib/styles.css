@@ -10,7 +10,7 @@ body{
 :root {
     --primary-color:#2e2e2e;
     --royal-blue : seashell;
-
+    --yellow:#FCD34D;
 
 }
 
@@ -98,7 +98,7 @@ hr{
 }
 
 .hero .hero-heading{
-    color: var(--royal-blue);
+    color: var(--yellow);
     text-align: center;
     padding: 1rem;
 }
